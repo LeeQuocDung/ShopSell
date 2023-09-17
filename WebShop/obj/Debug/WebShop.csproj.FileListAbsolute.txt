@@ -1,0 +1,242 @@
+E:\5.Học\WebShop\WebShop\bin\WebShop.dll.config
+E:\5.Học\WebShop\WebShop\bin\WebShop.dll
+E:\5.Học\WebShop\WebShop\bin\WebShop.pdb
+E:\5.Học\WebShop\WebShop\bin\roslyn\csc.exe
+E:\5.Học\WebShop\WebShop\bin\roslyn\csc.exe.config
+E:\5.Học\WebShop\WebShop\bin\roslyn\csc.rsp
+E:\5.Học\WebShop\WebShop\bin\roslyn\csi.exe
+E:\5.Học\WebShop\WebShop\bin\roslyn\csi.exe.config
+E:\5.Học\WebShop\WebShop\bin\roslyn\csi.rsp
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.Managed.Core.targets
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\5.Học\WebShop\WebShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.AppContext.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Console.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Globalization.Calendars.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.IO.Compression.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.IO.FileSystem.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Net.Http.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Net.Sockets.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.ValueTuple.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Xml.XmlDocument.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Xml.XPath.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\5.Học\WebShop\WebShop\bin\roslyn\vbc.exe
+E:\5.Học\WebShop\WebShop\bin\roslyn\vbc.exe.config
+E:\5.Học\WebShop\WebShop\bin\roslyn\vbc.rsp
+E:\5.Học\WebShop\WebShop\bin\roslyn\VBCSCompiler.exe
+E:\5.Học\WebShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+E:\5.Học\WebShop\WebShop\bin\Antlr3.Runtime.dll
+E:\5.Học\WebShop\WebShop\bin\EntityFramework.dll
+E:\5.Học\WebShop\WebShop\bin\EntityFramework.SqlServer.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+E:\5.Học\WebShop\WebShop\bin\Newtonsoft.Json.dll
+E:\5.Học\WebShop\WebShop\bin\Owin.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.Helpers.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.Mvc.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.Optimization.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.Razor.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.WebPages.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.WebPages.Razor.dll
+E:\5.Học\WebShop\WebShop\bin\WebGrease.dll
+E:\5.Học\WebShop\WebShop\bin\System.Web.Helpers.xml
+E:\5.Học\WebShop\WebShop\bin\System.Web.Mvc.xml
+E:\5.Học\WebShop\WebShop\bin\System.Web.Optimization.xml
+E:\5.Học\WebShop\WebShop\bin\System.Web.Razor.xml
+E:\5.Học\WebShop\WebShop\bin\System.Web.WebPages.xml
+E:\5.Học\WebShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+E:\5.Học\WebShop\WebShop\bin\System.Web.WebPages.Razor.xml
+E:\5.Học\WebShop\WebShop\bin\Newtonsoft.Json.xml
+E:\5.Học\WebShop\WebShop\bin\Antlr3.Runtime.pdb
+E:\5.Học\WebShop\WebShop\bin\EntityFramework.xml
+E:\5.Học\WebShop\WebShop\bin\EntityFramework.SqlServer.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\5.Học\WebShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.csproj.AssemblyReference.cache
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.csproj.CoreCompileInputs.cache
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.csproj.CopyComplete
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.dll
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.pdb
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase.resources
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.cache
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase1.resources
+E:\5.Học\WebShop\WebShop\bin\CKFinder.dll
+E:\5.Học\WebShop\WebShop\bin\CKFinder.pdb
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase2.resources
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase3.resources
+E:\5.Học\WebShop\WebShop\bin\PagedList.dll
+E:\5.Học\WebShop\WebShop\bin\PagedList.Mvc.dll
+E:\5.Học\WebShop\WebShop\bin\PagedList.xml
+E:\5.Học\WebShop\WebShop\bin\PagedList.Mvc.xml
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase4.resources
+E:\5.Học\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase5.resources
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\WebShop.dll.config
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\WebShop.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\WebShop.pdb
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\csc.exe
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\csc.exe.config
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\csc.rsp
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\csi.exe
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\csi.exe.config
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\csi.rsp
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.Managed.Core.targets
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.AppContext.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Console.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Globalization.Calendars.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.IO.Compression.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.IO.FileSystem.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Net.Http.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Net.Sockets.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.ValueTuple.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Xml.XmlDocument.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Xml.XPath.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\vbc.exe
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\vbc.exe.config
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\vbc.rsp
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\VBCSCompiler.exe
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Antlr3.Runtime.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\CKFinder.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\EntityFramework.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\EntityFramework.SqlServer.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Newtonsoft.Json.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Owin.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\PagedList.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\PagedList.Mvc.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Helpers.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Mvc.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Optimization.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Razor.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.WebPages.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.WebPages.Razor.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\WebGrease.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\CKFinder.pdb
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Newtonsoft.Json.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\PagedList.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\PagedList.Mvc.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Helpers.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Mvc.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Optimization.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.Razor.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.WebPages.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\System.Web.WebPages.Razor.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Antlr3.Runtime.pdb
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\EntityFramework.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\EntityFramework.SqlServer.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.csproj.AssemblyReference.cache
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase.resources
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase1.resources
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase2.resources
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase3.resources
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase4.resources
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.Migrations.DataBase5.resources
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.cache
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.csproj.CoreCompileInputs.cache
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.csproj.CopyComplete
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.dll
+E:\9. Học tập\Wed\OneDrive_1_16-9-2023\WebShop\WebShop\obj\Debug\WebShop.pdb
