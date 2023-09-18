@@ -34,6 +34,7 @@ namespace WebShop.Areas.Admin.Controllers
 
         public ActionResult Add()
         {
+            ViewBag.ProductCatgory = new SelectList(db.ProductCategorys.ToList(), "Id", "Title");
             return View();
         }
     }
