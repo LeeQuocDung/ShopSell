@@ -45,6 +45,7 @@
         <div class="card card-default">
             <div class="card-header">
                 <h3 class="card-title">Thông tin thêm mới</h3>
+                
             </div>
             <!-- /.card-header -->
             <div class="card-body">
@@ -91,7 +92,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="inputName">Danh mục</label>
-                                            @Html.DropDownListFor(x => x.ProductCategoryId,ViewBag.ProductCatgory as SelectList,"-Chọn danh mục sản phẩm-", new { @class = "form-control", @placeholder = "Mô tả sản phẩm" })
+                                            @Html.DropDownListFor(x => x.ProductCategoryId, ViewBag.ProductCatgory as SelectList, "-Chọn danh mục sản phẩm-", new { @class = "form-control", @placeholder = "Mô tả sản phẩm" })
                                             @Html.ValidationMessageFor(x => x.Desciption, null, new { @class = "text-danger" })
                                         </div>
 
@@ -102,28 +103,30 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="inputName">Chi tiết</label>
-                                            @Html.TextAreaFor(x => x.Detail, new { @class = "form-control", @id="txtDetail" })
+                                            @Html.TextAreaFor(x => x.Detail, new { @class = "form-control", @id = "txtDetail" })
                                             @Html.ValidationMessageFor(x => x.Detail, null, new { @class = "text-danger" })
                                         </div>
                                         <div class="row">
                                             <div class="col-4">
                                                 <div class="form-group">
                                                     <label for="inputName">Số lượng</label>
-                                                    @Html.TextBoxFor(x => x.Quantity, new { @class = "form-control", @placeholder = "Số lượng sản phẩm" })
+                                                    @Html.TextBoxFor(x => x.Quantity, new { @class = "form-control", @Value = 1 })
                                                     @Html.ValidationMessageFor(x => x.Quantity, null, new { @class = "text-danger" })
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="form-group">
                                                     <label for="inputName">Giá</label>
-                                                    @Html.TextBoxFor(x => x.Price, new { @class = "form-control numberic", @placeholder = "Giá tiết sản phẩm" })
+                                                    <input class="form-control numberic" type="text" id="demoPrice" value="InitialValue" />
+                                                    @Html.HiddenFor(x => x.Price, new { @class = "", @placeholder = "Giá tiết sản phẩm" })
                                                     @Html.ValidationMessageFor(x => x.Price, null, new { @class = "text-danger" })
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="form-group">
                                                     <label for="inputName">Giá khuyến mãi</label>
-                                                    @Html.TextBoxFor(x => x.PriceSale, new { @class = "form-control numberic", @placeholder = "Giá khuyến mãi" })
+                                                    <input class="form-control numberic" type="text" id="demoPriceSale" value="InitialValue"/>
+                                                    @Html.HiddenFor(x => x.PriceSale, new { @class = "", @placeholder = "Giá khuyến mãi" })
                                                     @Html.ValidationMessageFor(x => x.PriceSale, null, new { @class = "text-danger" })
                                                 </div>
                                             </div>
@@ -185,21 +188,10 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody id="tbHtml">
-                                                        @*<tr>
-                                                            <td class="text-center">1</td>
-                                                            <td class="text-center"><img width="60" src="" /></td>
-                                                            <td class="text-center"><input type="radio" name="rDefault" /></td>
-                                                            <td class="text-center"><a href="#" class="btn btn-sm btn-danger">Xóa</a></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="text-center">2</td>
-                                                            <td class="text-center"><img width="60" src="" /></td>
-                                                            <td class="text-center"><input type="radio" name="rDefault" /></td>
-                                                            <td class="text-center"><a href="#" class="btn btn-sm btn-danger">Xóa</a></td>
-                                                        </tr>*@
+
                                                     </tbody>
                                                 </table>
-                                                <input type="hidden" id="tCurrentId" value="0"/>
+                                                <input type="hidden" id="tCurrentId" value="0" />
                                             </div>
                                         </div>
                                     </div>
@@ -228,17 +220,15 @@
                                                     @Html.ValidationMessageFor(x => x.SeoDescription, null, new { @class = "text-danger" })
                                                 </div>
                                             </div>
-                                            <div class="form-group row">
-                                                <div class="offset-sm-2 col-sm-10">
-                                                    <button type="submit" class="btn btn-danger">Submit</button>
-                                                </div>
-                                            </div>
                                         </form>
                                     </div>
                                     <!-- /.tab-pane -->
                                 </div>
                                 <!-- /.tab-content -->
                             </div><!-- /.card-body -->
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-success" style="margin: 0px 20px 20px 0px">Lưu lại</button>
+                            </div>
                         </div>
                         }
 
@@ -275,6 +265,17 @@
                 vMin: '-999999999'
             });
 
+            $('#demoPriceSale').bind('blur focusout keypress keyup', function () {
+                var demoGet = $('#demoPriceSale').autoNumeric('get');
+                $('#PriceSale').val(demoGet);
+                $('#PriceSale').autoNumeric('set', demoGet);
+            });
+            $('#demoPrice').bind('blur focusout keypress keyup', function () {
+                var demoGet = $('#demoPrice').autoNumeric('get');
+                $('#Price').val(demoGet);
+                $('#Price').autoNumeric('set', demoGet);
+            });
+
             $(document).on('click', '.btnXoaAnh', function () {
                 var conf = confirm('Bạn có muốn xóa ảnh này không?');
                 if (conf === true) {
@@ -305,7 +306,7 @@
             if (currentId == 1) {
                 str += `<tr id="trow_${currentId}">
                        <td class="text-center">${currentId}</td>
-                       <td class="text-center"><img width="60" src="${url}" /></td>
+                       <td class="text-center"><img width="60" src="${url}" /><input type="hidden" value="${url}" name="Image" /></td>
                        <td class="text-center"><input type="radio" value=${currentId} name="rDefault" checked="checked" /></td>
                        <td class="text-center"><a href="#" data-id="${currentId}" class="btn btn-sm btn-danger btnXoaAnh">Xóa</a></td>
                     </tr>`
@@ -313,7 +314,7 @@
             else {
                 str += `<tr id="trow_${currentId}">
                        <td class="text-center">${currentId}</td>
-                       <td class="text-center"><img width="60" src="${url}" /></td>
+                       <td class="text-center"><img width="60" src="${url}" /><input type="hidden" value="${url}" name="Image" /></td>
                        <td class="text-center"><input type="radio" value=${currentId} name="rDefault" /></td>
                        <td class="text-center"><a href="#" data-id="${currentId}" class="btn btn-sm btn-danger btnXoaAnh">Xóa</a></td>
                     </tr>`

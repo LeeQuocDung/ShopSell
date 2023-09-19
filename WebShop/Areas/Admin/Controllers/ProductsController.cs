@@ -37,5 +37,51 @@ namespace WebShop.Areas.Admin.Controllers
             ViewBag.ProductCatgory = new SelectList(db.ProductCategorys.ToList(), "Id", "Title");
             return View();
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Add(Product model, List<string> Image, List<int> rDefault)
+        {
+            if (ModelState.IsValid)
+            {
+                if(Image != null && Image.Count > 0)
+                {
+                    for(int i = 0; i < Image.Count; i++)
+                    {
+                        if(i+1 == rDefault[0])
+                        {
+                            model.ProductImage.Add(new ProductImage
+                            {
+                                ProductId = model.Id,
+                                Image = Image[i],
+                                IsDefault = true
+                            });
+                            model.Image = Image[i];
+                        }
+                        else
+                        {
+                            model.ProductImage.Add(new ProductImage
+                            {
+                                ProductId = model.Id,
+                                Image = Image[i],
+                                IsDefault = false
+                            });
+                        }
+                    }
+                }
+                model.CreateDate = DateTime.Now;
+                model.UpdateDate = DateTime.Now;
+                if (string.IsNullOrEmpty(model.SeoTitle))
+                {
+                    model.SeoTitle = model.Title;
+                }
+                if (string.IsNullOrEmpty(model.Alias))
+                    model.Alias = WebShop.Models.Commons.Filter.FilterChar(model.Title);
+                db.Products.Add(model);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            ViewBag.ProductCatgory = new SelectList(db.ProductCategorys.ToList(), "Id", "Title");
+            return View(model);
+        }
     }
 }

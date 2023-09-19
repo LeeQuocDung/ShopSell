@@ -11,6 +11,11 @@ namespace WebShop.Models.Entity
     [Table("tbl_Product")]
     public class Product : CommonAbstract
     {
+        public Product()
+        {
+            this.ProductImage = new HashSet<ProductImage>();
+            this.OderDetail = new HashSet<OderDetail>();
+        }
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
@@ -43,5 +48,8 @@ namespace WebShop.Models.Entity
         public bool IsActive { get; set; }
 
         public virtual ProductCategory ProductCategory { get; set; }
+        public virtual ICollection<ProductImage> ProductImage { get; set; }
+        public virtual ICollection<OderDetail> OderDetail { get; set; }
+
     }
 }
