@@ -1,0 +1,58 @@
+﻿@model IEnumerable<WebShop.Models.Entity.ProductImage>
+@{
+    ViewBag.Title = "Ảnh sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutEmpty.cshtml";
+}
+<style>
+    .glImage {
+        list-style: none;
+        margin: 0;
+        padding: 0 0px;
+        display: flex;
+        flex-direction: column;
+    }
+        .glImage li {
+            padding: 5px 0px;
+        }
+</style>
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Ảnh sản phẩm</h3>
+
+            <div class="card-tools">
+                <button type="button" class="btn btn-danger" title="Xóa"><i class="fa fa-trash"></i>  Xóa hết</button>
+                <button type="button" class="btn btn-success" title="Thêm mới"><i class="fa fa-plus"></i>  Thêm ảnh</button>
+            </div>
+        </div>
+        <div class="card-body">
+            <ul class="glImage">
+                @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                        <li>
+                            <img src="@item.Image" width="200" />
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash"></i>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-success">
+                                <i class="fa fa-check"></i>
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+        <!-- /.card-body -->
+        @*<div class="card-footer">
+
+        </div>*@
+        <!-- /.card-footer-->
+    </div>
+    <!-- /.card -->
+
+</section>
+
