@@ -11,9 +11,9 @@
         display: flex;
         flex-direction: column;
     }
-        .glImage li {
-            padding: 5px 0px;
-        }
+    .glImage li {
+        padding: 5px 0px;
+    }
 </style>
 <section class="content">
 
@@ -24,7 +24,8 @@
 
             <div class="card-tools">
                 <button type="button" class="btn btn-danger" title="Xóa"><i class="fa fa-trash"></i>  Xóa hết</button>
-                <button type="button" class="btn btn-success" title="Thêm mới"><i class="fa fa-plus"></i>  Thêm ảnh</button>
+
+                <input type="button" class="btn btn-success" value="Tải ảnh" onclick="BrowseServe('txtImage');"/>
             </div>
         </div>
         <div class="card-body">
@@ -33,14 +34,23 @@
                 {
                     foreach (var item in Model)
                     {
-                        <li>
+                        <li id="trow_@item.Id">
                             <img src="@item.Image" width="200" />
-                            <a href="#" class="btn btn-sm btn-danger">
+                            <a href="#" data-id="@item.Id" class="btn btn-sm btn-danger btnDelete">
                                 <i class="fa fa-trash"></i>
                             </a>
-                            <a href="#" class="btn btn-sm btn-success">
-                                <i class="fa fa-check"></i>
-                            </a>
+                            @if (item.IsDefault)
+                            {
+                                <a href="#" data-id="@item.Id" class="btn btn-sm btn-success btnDefault">
+                                    <i class="fa fa-check"></i>
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="#" data-id="@item.Id" class="btn btn-sm btn-warning btnDefault">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            }
                         </li>
                     }
                 }
@@ -55,4 +65,45 @@
     <!-- /.card -->
 
 </section>
+
+<script>
+    function BrowseServe(field) {
+        var finder = new CKFinder();
+        finder.selectActionFunction = function (fileUrl) {
+            AddImage(@ViewBag.productId,fileUrl);
+        };
+        finder.popup();
+    };
+    function AddImage(id, url) {
+        $.ajax({
+            url: '/admin/productimage/addImage',
+            type: 'POST',
+            data: {productId: id,url:url },
+            success: function (rs) {
+                if (rs.success) {
+                    window.location.reload();
+                }
+            }
+        })
+    }
+    $(document).ready(function () {
+        $('body').on('click', '.btnDelete', function () {
+            var id = $(this).data('id');
+            var conf = confirm('Bạn có muốn xóa ảnh này không?');
+            if (conf === true) {
+                $.ajax({
+                    url: '/admin/productimage/delete',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function (rs) {
+                        if (rs.success) {
+                            $('trow_' + id).remove();
+                            window.location.reload();
+                        }
+                    }
+                })
+            }
+        })
+    })
+</script>
 
